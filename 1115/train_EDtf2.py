@@ -85,5 +85,5 @@ print('Data collected!')
 
 model.fit(batch_xs, batch_ys, epochs=10)
 
-model.save("./modelED_1115_v5.h5")
+model.save("./models/modelED_1201_v1.h5")
 print('Training finish!')
