@@ -28,7 +28,7 @@ model = keras.models.Sequential([
     
     keras.layers.Flatten(),
     keras.layers.Dense(512, activation='relu'),
-    keras.layers.Dropout(0.1),
+    keras.layers.Dropout(0.3),
     keras.layers.Dense(5, activation='softmax')
 ])
 #https://www.kaggle.com/code/amyjang/tensorflow-mnist-cnn-tutorial
